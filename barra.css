@@ -1,0 +1,65 @@
+
+nav a {
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+nav img {
+    position: absolute;
+    left: 0;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+} 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul {
+
+
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    height: 60px;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    background-color: rgb(9, 9, 33);
+
+
+}
+
+
+
+nav img {
+    position: absolute;
+    left: 0;
+}
+.logo{
+    height: 50px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 4px;
+}
+@media (max-width: 768px) {
+    nav a { 
+         padding: 10px 10px;
+         text-decoration: none;
+         font-size: 20px;
+    }
+
+}

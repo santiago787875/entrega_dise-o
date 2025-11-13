@@ -1,0 +1,132 @@
+body{
+    background-image: url(imagenes/pexels-pixabay-533923\ \(1\).jpg);
+    background-repeat: no-repeat;
+
+
+
+    height: 100%;
+    margin: 0;
+}
+
+.contenedor-titulo {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    margin-top: 14%;
+}
+
+
+.titulo {
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    animation: entrar 5s;
+    color: yellow;
+}
+
+.explore {
+    margin-top: 10px;
+    animation: entrar 5s;
+    animation-delay: 0.5s;        
+    animation-fill-mode: both; 
+
+ 
+}
+.letra{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+@keyframes entrar {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.contenido-abajo {
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+
+    opacity: 0; 
+    animation: entrar 5s;           
+    animation-delay: 1s;            
+    animation-fill-mode: both;   
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; 
+
+}
+.contenedor-abajo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+
+    margin: 180px auto 50px auto; 
+    padding: 0 20px;
+    
+   
+    background-color: rgba(0, 0, 0, 0.377); 
+    
+    opacity: 0; 
+    animation: entrar 5s;           
+    animation-delay: 1s;            
+    animation-fill-mode: both; 
+}
+.contenido-abajoll{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;   
+    align-self: flex-start; 
+    opacity: 0; 
+    animation: entrar 5s;           
+    animation-delay: 1s;            
+    animation-fill-mode: both;    
+}
+@media (max-width: 768px){
+    .titulo {
+        font-family: "BBH Sans Hegarty", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        animation: entrar 5s;
+        color: yellow;
+    }
+    .contenido-abajoll{
+        font-size: 26px;
+    }
+    .contenido-abajo{
+        font-size: 16px;
+    }
+    .contenedor-abajo{
+        margin: 150px auto 50px auto; 
+
+    }
+    .contenedor-titulo {
+     
+        margin-top: 280px;
+    
+    }
+    nav a { 
+         padding: 10px 6px;
+         text-decoration: none;
+         font-size: 16px;
+    }
+
+}
