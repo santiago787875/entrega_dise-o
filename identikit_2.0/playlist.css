@@ -1,0 +1,76 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+
+aside{
+    background-color:  rgb(56, 78, 100);
+    display: inline-block;
+    width: 400px;
+    height: 90%;
+    margin-top: 2%;
+    border: 2px solid black;
+    border-right: none;
+    
+
+}
+main{
+    background-color: rgba(84, 84, 84, 0.792);
+    display: inline-block;
+    width: 65%;
+    height: 90%;
+    margin-top: 2%;
+    border: 2px solid black;
+}
+.conta{
+    background-color:rgb(192, 192, 192);
+    height: 90%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+footer{
+    background-color: rgb(19, 54, 87);
+    height: 150px;
+    text-align: center;
+}
+aside li{
+    display: block;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 2px solid black;
+
+}
+
+aside ul li a{
+    color: white;
+    text-decoration: none;
+}
+.texto{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    background-color: rgb(56, 78, 100);
+    color: white;
+
+}
+footer div{
+    display: inline-block;
+    width: 20vw;
+    text-align: center;
+
+}
+footer div ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+footer div ul li{
+    height: 20px;
+    
+}
+h4{
+    color: white;
+     margin-top: 3px;"
+}

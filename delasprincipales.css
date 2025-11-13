@@ -1,0 +1,98 @@
+body{
+    height: 100vh;
+    background-image: url(imagenes/pexels-ron-lach-10526880.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    width: 30%;
+    margin: 5% auto;
+    border: 6px solid rgb(37, 37, 37);
+    border-radius: 20px;
+    height: 60vh;
+    background-color: rgba(245, 245, 220, 0.564);
+    text-align: center;
+        
+}
+main header img{
+    width: 100px;
+    height: 100px;
+    transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.29, 2.71) 0s;
+}
+main header{
+    padding-top: 10px;
+}
+.clase{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    }
+main header div ul{
+    list-style-type: none;
+}
+main header div ul li a img{
+    width: 35px;
+    height: 35px;
+}
+main header div ul li{
+    display: inline-block;
+    padding-left: 5px;
+    margin-top: 20PX;
+
+}
+nav ul{
+    position: relative;
+    text-align: center;
+}
+nav li{
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+nav a {
+    background-color: rgba(120, 120, 120, 0.699);
+    display: inline-block;
+    padding: 20px 100px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    width: 450px;
+    border: 2px solid black;
+    margin-top: 10px;
+    transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.29, 2.71) 0s;
+}
+nav a:hover {
+    transform: translate3d(0px, 0px, 0px) scale(1.025);
+}
+main header img:hover {
+    transform: translate3d(0px, 0px, 0px) scale(1.025);
+}
+    nav img {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    
+}
+@media (max-width: 768px){
+    main{
+        position: relative;
+        width: 70%;
+        margin: 15% auto;
+        height: 70vh;
+
+        
+     }
+
+}

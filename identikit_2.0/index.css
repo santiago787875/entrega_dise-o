@@ -1,0 +1,58 @@
+body , html{
+    height: 100%;
+    margin: 0;
+}
+aside{
+    background-color:  rgb(56, 78, 100);
+    display: inline-block;
+    width: 400px;
+    height: 80%;
+    margin-top: 3%;
+    border: 2px solid black;
+    border-right: none;
+    
+
+}
+main{
+    background-color: rgba(84, 84, 84, 0.792);
+    display: inline-block;
+    width: 600px;
+    height: 80%;
+    margin-top: 3%;
+    border: 2px solid black;
+}
+.conta{
+    background-color:rgb(192, 192, 192);
+    height: 80%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+}
+
+.fondo{
+    background-image: url('imagenes todas/Diseño sin título.png');
+    width: 100%;
+    height: 99.7%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+footer{
+    text-align: center;
+    background-color: rgb(19, 54, 87);
+    height: 129px;
+}
+footer div{
+    display: inline-block;
+    width: 10%;
+    margin-top: 15px;
+}
+H1{
+    color: white;
+
+}
+p{
+    color: white;
+}
